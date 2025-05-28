@@ -121,11 +121,7 @@ section {
     color: #007bff;
 }
 
-.feature-img {
-    height: 150px; /* Adjust as needed */
-    object-fit: cover;
-    width: 100%;
-}
+
 
 /* Get Started Section */
 #getStarted {
