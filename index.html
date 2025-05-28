@@ -15,10 +15,25 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp5g9Dy2XR8keiMDBukG73KyWRur-cYTnb_Q&s" alt="logo" style="width:40px;height:auto:" class="image-container"> Smart Home Automation System</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <a class="navbar-brand d-flex align-items-center" href="#">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp5g9Dy2XR8keiMDBukG73KyWRur-cYTnb_Q&s" 
+       alt="logo" 
+       style="width: 40px; height: auto;" 
+       class="me-2">
+
+  <!-- Full name for medium+ devices -->
+  <span class="d-none d-sm-inline">Smart Home Automation System</span>
+
+  <!-- Short name for small devices -->
+  <span class="d-inline d-sm-none">Smart Home</span>
+</a>
+
+<!-- Toggler Button -->
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#home"><i class="fas fa-home"></i> Home</a></li>
